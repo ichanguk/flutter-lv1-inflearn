@@ -10,4 +10,5 @@
 ## *Contents*
 
 - 섹션6. [\[프로젝트\] Hello World](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/hello_world)
-- 섹션7. [\[이론\] Widget Tree(위젯 트리)](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/Widget_Tree) 
+- 섹션7. [\[이론\] Widget Tree(위젯 트리)](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/Widget_Tree)
+- 섹션8. [\[프로젝트\] Splash Screen](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/splash_screen)
