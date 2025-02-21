@@ -14,4 +14,5 @@
 - 섹션8. [\[프로젝트\] Splash Screen](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/splash_screen)
 - 섹션9. [\[이론\] Row & Column](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/row_and_column)
 - 섹션10. [\[이론\] Padding](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/padding)
+- 섹션11. [\[프로젝트\] 블로그 웹앱](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/web_view)
 
