@@ -23,4 +23,5 @@
 - 섹션17. [\[이론\] Constraint](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/constraints)
 - 섹션18. [\[이론\] Alignment](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/alignment)
 - 섹션19. [\[프로젝트\] Random Number Generator](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/random_number_generator)
+- 섹션20. [\[이론\] BuildContext란?](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/build_context)
 
