@@ -20,4 +20,4 @@
 - 섹션14. [\[프로젝트\] Image Carousel](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/image_carousel)
 - 섹션15. [\[이론\] DateTime & Duration](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/datetime_and_duration)
 - 섹션16. [\[프로젝트\] U&I 우리 사귄지 몇일](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/u_and_i)
-
+- 섹션17. [\[이론\] Constraint](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/constraints)
