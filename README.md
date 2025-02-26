@@ -22,3 +22,5 @@
 - 섹션16. [\[프로젝트\] U&I 우리 사귄지 몇일](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/u_and_i)
 - 섹션17. [\[이론\] Constraint](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/constraints)
 - 섹션18. [\[이론\] Alignment](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/alignment)
+- 섹션19. [\[프로젝트\] Random Number Generator](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/random_number_generator)
+
