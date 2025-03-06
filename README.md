@@ -25,4 +25,5 @@
 - 섹션19. [\[프로젝트\] Random Number Generator](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/random_number_generator)
 - 섹션20. [\[이론\] BuildContext란?](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/build_context)
 - 섹션21. [\[이론\] Buttons](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/buttons)
+- 섹션22. [\[이론\] Navigation](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/navigation)
 
