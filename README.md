@@ -26,4 +26,5 @@
 - 섹션20. [\[이론\] BuildContext란?](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/build_context)
 - 섹션21. [\[이론\] Buttons](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/buttons)
 - 섹션22. [\[이론\] Navigation](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/navigation)
+- 섹션23. [\[프로젝트\] Video Player](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/vid_player)
 
