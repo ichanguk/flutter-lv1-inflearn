@@ -27,4 +27,4 @@
 - 섹션21. [\[이론\] Buttons](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/buttons)
 - 섹션22. [\[이론\] Navigation](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/navigation)
 - 섹션23. [\[프로젝트\] Video Player](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/vid_player)
-
+- 섹션24. [\[프로젝트\] 오늘도 출첵! 출퇴근 확인 앱](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/chool_check)
