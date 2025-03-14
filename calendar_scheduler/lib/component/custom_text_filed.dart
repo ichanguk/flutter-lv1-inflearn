@@ -6,8 +6,9 @@ class CustomTextFiled extends StatelessWidget {
   final bool expand;
   final FormFieldSetter<String> onSaved;
   final FormFieldValidator<String> validator;
+  final String? initialValue;
 
-  const CustomTextFiled({super.key, required this.label, this.expand = false, required this.onSaved, required this.validator});
+  const CustomTextFiled({super.key, required this.label, this.expand = false, required this.onSaved, required this.validator, this.initialValue});
 
   @override
   Widget build(BuildContext context) {
@@ -40,6 +41,7 @@ class CustomTextFiled extends StatelessWidget {
       minLines: expand ? null : 1,
       expands: expand,
       cursorColor: Colors.grey,
+      initialValue: initialValue,
     );
   }
 }
