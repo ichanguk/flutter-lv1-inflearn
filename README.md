@@ -32,4 +32,5 @@
 - 섹션26. [\[프로젝트\] Video Call](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/video_call)
 - 섹션27. [\[이론\] Buy vs Build](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/buy_vs_build)
 - 섹션28. [\[프로젝트\] Calendar Scheduler](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/calendar_scheduler)
+- 섹션29. [\[이론\] Scrollable Widgets](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/scrollable_widgets)
 

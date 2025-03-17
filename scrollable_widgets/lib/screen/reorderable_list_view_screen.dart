@@ -17,9 +17,18 @@ class _ReorderableListViewScreenState extends State<ReorderableListViewScreen> {
   Widget build(BuildContext context) {
     return MainLayout(
       title: 'ReorderableListViewScreen',
-      body: ReorderableListView(
+      body: ReorderableListView.builder(
+        itemBuilder: (context, index) {
+          return renderContainer(
+            color: rainbowColors[numbers[index] % rainbowColors.length],
+            index: numbers[index],
+          );
+        },
+        itemCount: numbers.length,
         onReorder: (int oldIndex, int newIndex) {
           setState(() {
+            // oldIndex와 newIndex 모두
+            // 이동이 되기 전에 산정한다.
             // [red, orange, yellow]
             // [0, 1, 2]
             //
@@ -29,7 +38,7 @@ class _ReorderableListViewScreenState extends State<ReorderableListViewScreen> {
             //
             // [red, orange, yellow]
             // yellow를 red 전으로 옮기고 싶다.
-            // yello : 2(oldIndex) -> 0(newIndex)
+            // yellow : 2(oldIndex) -> 0(newIndex)
             // [yellow, red, orange]
             if (oldIndex < newIndex) {
               newIndex -= 1;
@@ -38,16 +47,43 @@ class _ReorderableListViewScreenState extends State<ReorderableListViewScreen> {
             numbers.insert(newIndex, item);
           });
         },
-        children:
-            numbers
-                .map(
-                  (e) => renderContainer(
-                    color: rainbowColors[e % rainbowColors.length],
-                    index: e,
-                  ),
-                )
-                .toList(),
       ),
+    );
+  }
+
+  Widget renderDefault() {
+    return ReorderableListView(
+      onReorder: (int oldIndex, int newIndex) {
+        setState(() {
+          // oldIndex와 newIndex 모두
+          // 이동이 되기 전에 산정한다.
+          // [red, orange, yellow]
+          // [0, 1, 2]
+          //
+          // red를 yellow 다음으로 옮기고 싶다.
+          // red : 0(oldIndex) -> 3(newIndex)
+          // [orange, yellow, red]
+          //
+          // [red, orange, yellow]
+          // yellow를 red 전으로 옮기고 싶다.
+          // yellow : 2(oldIndex) -> 0(newIndex)
+          // [yellow, red, orange]
+          if (oldIndex < newIndex) {
+            newIndex -= 1;
+          }
+          final item = numbers.removeAt(oldIndex);
+          numbers.insert(newIndex, item);
+        });
+      },
+      children:
+          numbers
+              .map(
+                (e) => renderContainer(
+                  color: rainbowColors[e % rainbowColors.length],
+                  index: e,
+                ),
+              )
+              .toList(),
     );
   }
 
@@ -58,6 +94,7 @@ class _ReorderableListViewScreenState extends State<ReorderableListViewScreen> {
   }) {
     print(index);
     return Container(
+      key: Key(index.toString()),
       height: height ?? 300,
       color: color,
       child: Center(
