@@ -34,3 +34,4 @@
 - 섹션28. [\[프로젝트\] Calendar Scheduler](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/calendar_scheduler)
 - 섹션29. [\[이론\] Scrollable Widgets](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/scrollable_widgets)
 - 섹션30. [\[프로젝트\] Dusty Dust](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/dusty_dust)
+- 섹션31. [\[이론\] TabBar Widgets](https://github.com/ichanguk/flutter-lv1-inflearn/tree/main/tabbar_theory)
